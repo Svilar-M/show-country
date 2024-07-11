@@ -1,0 +1,50 @@
+.country-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .country-search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .country-search-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .country-search-dropdown li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .country-search-dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+  .country-search-dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .CountryInfo {
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .CountryInfo img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
